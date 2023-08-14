@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>D:\Develop\3340VCO\KiCAD\3340VCO\3340VCO.kicad_sch</source>
-    <date>2023/07/24 16:59:51</date>
+    <date>2023/08/03 16:24:58</date>
     <tool>Eeschema (6.0.11)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>3340VCO</title>
         <company>PNPN Manufactory</company>
-        <rev>1.0</rev>
-        <date>2023-07-18</date>
+        <rev>1.1</rev>
+        <date>2023-07-27</date>
         <source>3340VCO.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -124,7 +124,7 @@
       <tstamps>ab2b7d40-7678-4f9c-8a39-a50bea7c7375</tstamps>
     </comp>
     <comp ref="C12">
-      <value>1000pF</value>
+      <value>1000pF/PP</value>
       <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
@@ -161,7 +161,7 @@
     </comp>
     <comp ref="C16">
       <value>0.1uF</value>
-      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="3340VCO.kicad_sch"/>
@@ -259,7 +259,7 @@
       <tstamps>8819a915-6747-4cc8-ae9d-e7a46d57e4f4</tstamps>
     </comp>
     <comp ref="J4">
-      <value>IN2</value>
+      <value>EXT</value>
       <footprint>Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical</footprint>
       <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
@@ -439,7 +439,7 @@
       <tstamps>00000000-0000-0000-0000-0000620e84bc</tstamps>
     </comp>
     <comp ref="R15">
-      <value>220k</value>
+      <value>270k</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -601,7 +601,7 @@
       <tstamps>5fcbcf08-6c56-4338-b322-3c71c0b17505</tstamps>
     </comp>
     <comp ref="RV3">
-      <value>100k</value>
+      <value>50k</value>
       <footprint>Potentiometer_THT:Potentiometer_Alps_RK09Y11_Single_Horizontal</footprint>
       <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
       <property name="Sheetname" value=""/>
@@ -637,7 +637,7 @@
       <tstamps>a30f272f-c003-48f3-9da1-7ae406632db7</tstamps>
     </comp>
     <comp ref="RV7">
-      <value>50k</value>
+      <value>100k</value>
       <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
       <libsource lib="Device" part="R_Potentiometer_Trim" description="Trim-potentiometer"/>
       <property name="Sheetname" value=""/>
@@ -672,6 +672,24 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b21b60e6-c5a1-443c-a2a2-7cc15b9ea04c</tstamps>
     </comp>
+    <comp ref="TP2">
+      <value>+1V</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3340VCO.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ba0c60b-6a92-4fca-ba23-a8c36c803988</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>OCT</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3340VCO.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43395728-6f41-43cc-9d52-82e8ae94aaeb</tstamps>
+    </comp>
     <comp ref="U1">
       <value>NJM072D</value>
       <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
@@ -690,7 +708,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="3340VCO.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>9f5d0b74-8242-4fe1-ad21-bb95cd55737c 55eca6d8-5fe0-4a29-9f8d-bcd5689790d8 4ce49761-f1e6-4a5c-9840-d5e0c50e9750</tstamps>
+      <tstamps>55eca6d8-5fe0-4a29-9f8d-bcd5689790d8 9f5d0b74-8242-4fe1-ad21-bb95cd55737c 4ce49761-f1e6-4a5c-9840-d5e0c50e9750</tstamps>
     </comp>
     <comp ref="U3">
       <value>NJM072D</value>
@@ -974,7 +992,7 @@
         <pin num="4" name="4" type="passive"/>
         <pin num="5" name="5" type="passive"/>
         <pin num="6" name="6" type="passive"/>
-        <pin num="7" name="7" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="My_Device0" part="AS3340">
@@ -1122,8 +1140,8 @@
       <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="RV3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="RV5" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="RV8" pin="3" pinfunction="3" pintype="passive"/>
-      <node ref="SW1" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="RV8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="10" pinfunction="10" pintype="passive"/>
       <node ref="U5" pin="12" pinfunction="GND" pintype="power_in"/>
     </net>
     <net code="7" name="HARD_SYNC">
@@ -1136,7 +1154,7 @@
     </net>
     <net code="9" name="MOD">
       <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="RV8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV8" pin="3" pinfunction="3" pintype="passive"/>
     </net>
     <net code="10" name="Net-(C11-Pad1)">
       <node ref="C11" pin="1" pintype="passive"/>
@@ -1192,22 +1210,22 @@
     <net code="22" name="Net-(R1-Pad2)">
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW1" pin="5" pinfunction="5" pintype="passive"/>
     </net>
     <net code="23" name="Net-(R2-Pad2)">
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
-      <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="4" pintype="passive"/>
     </net>
     <net code="24" name="Net-(R3-Pad2)">
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
-      <node ref="SW1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
     <net code="25" name="Net-(R4-Pad2)">
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
-      <node ref="SW1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
     </net>
     <net code="26" name="Net-(R8-Pad1)">
@@ -1231,7 +1249,7 @@
     </net>
     <net code="30" name="Net-(R12-Pad1)">
       <node ref="R12" pin="1" pintype="passive"/>
-      <node ref="RV6" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV6" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="31" name="Net-(R12-Pad2)">
       <node ref="R12" pin="2" pintype="passive"/>
@@ -1240,8 +1258,8 @@
     <net code="32" name="Net-(R13-Pad1)">
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
-      <node ref="RV6" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="RV6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV6" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="U5" pin="3" pinfunction="VEE" pintype="power_in"/>
     </net>
     <net code="33" name="Net-(R13-Pad2)">
@@ -1292,6 +1310,7 @@
     </net>
     <net code="42" name="Net-(RV1-Pad3)">
       <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
       <node ref="U1" pin="7" pintype="output"/>
     </net>
@@ -1299,14 +1318,14 @@
       <node ref="RV3" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U3" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="44" name="Net-(RV4-Pad2)">
-      <node ref="RV4" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="U5" pin="5" pinfunction="VPWM" pintype="input"/>
-    </net>
-    <net code="45" name="Net-(RV4-Pad3)">
-      <node ref="RV4" pin="3" pinfunction="3" pintype="passive"/>
+    <net code="44" name="Net-(RV4-Pad1)">
+      <node ref="RV4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="6" pinfunction="-" pintype="input"/>
       <node ref="U3" pin="7" pintype="output"/>
+    </net>
+    <net code="45" name="Net-(RV4-Pad2)">
+      <node ref="RV4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="VPWM" pintype="input"/>
     </net>
     <net code="46" name="Net-(RV5-Pad3)">
       <node ref="RV5" pin="3" pinfunction="3" pintype="passive"/>
@@ -1323,6 +1342,7 @@
     </net>
     <net code="49" name="OCTAVE">
       <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="1" pintype="output"/>
       <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
     </net>
@@ -1333,7 +1353,7 @@
     </net>
     <net code="51" name="PWM">
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="RV4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV4" pin="3" pinfunction="3" pintype="passive"/>
     </net>
     <net code="52" name="SAW">
       <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
